@@ -1,0 +1,358 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #2d3250;
+    color: #ffffff;
+    line-height: 1.8;
+}
+
+header {
+    background: #F5E4D7;
+    position: relative;
+    padding: 0.1rem 0.5rem;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    transition: background-color 0.3s ease;
+    border-radius: 30px;
+    margin: 1rem auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: #2d3250;
+    font-family: 'Caveat';
+    font-weight: bold;
+}
+
+
+.nav-item {
+    color: #2d3250;
+    text-decoration: none;
+    font-size: 1.1rem;
+    position: relative;
+    transition: color 0.3s ease;
+    margin: 0 0.8rem;
+}
+
+.nav-item:hover {
+    color: #2d3250;
+    font-weight: bold;
+}
+
+.nav-item::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #2d3250;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.nav-item:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.home {
+    background-image: url("https://bing.com/th/id/BCO.a8a32235-1c69-4349-9591-904f17c560df.png");
+    background-size: cover;
+    background-attachment: fixed;
+    /* Keeps the background fixed */
+
+    height: 130vh;
+    width: 100vw;
+    position: relative;
+    z-index: -1;
+    opacity: 0.5;
+    /* Applying transparency */
+    background-color: rgba(45, 50, 80, 0.5);
+    /* Adding the overlay color #2d3250 */
+}
+
+.home1 {
+    background-image: url("https://bing.com/th/id/BCO.02178665-bf15-489e-ab61-622610d7228e.png");
+    background-size: cover;
+    background-attachment: fixed;
+    /* Keeps the background fixed */
+    background-position: center;
+    height: 90vh;
+    width: 100vw;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.5;
+    /* Slight transparency for smoother overlay */
+    background-color: rgba(45, 50, 80, 0.5);
+}
+
+.container {
+    position: relative;
+    z-index: 2;
+}
+
+
+section {
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 90px;
+
+}
+
+.head {
+    font-size: 25px;
+    font-weight: bold;
+    color: #f9b17a;
+}
+
+.para {
+    font-size: 18px;
+    
+}
+
+.about-img {
+  border-radius: 80%;
+  width: 250px;
+  height: 250px;
+  margin: 0 2rem;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(249, 177, 122, 0.5);
+}
+
+.about-img:hover {
+  transform: scale(1.05) rotate(3deg);
+  box-shadow: 0 20px 30px rgba(249, 177, 122, 0.8);
+}
+
+
+.cta-btn {
+    background-color: #f9b17a;
+    color: #2d3250;
+    padding: 0.4rem 1.2rem;
+    border-radius: 10px;
+    border: 0px;
+    font-weight: bold;
+    margin-left: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #F5E4D7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #2d3250;
+    font-size: 1.1rem;
+}
+
+.link-logo {
+    width: 25px;
+    height: 25px;
+}
+
+.linkedin {
+
+    margin-top: 20px;
+    margin-left: 25px;
+
+}
+
+.skill-img{
+     border-radius: 80%;
+    width: 250px;
+    height: 250px;
+    margin-right: 2rem;
+    margin-left: 1rem;
+}
+
+.wcu-section {
+    background-color: #f9fbfe;
+    
+}
+
+.wcu-section-heading {
+    font-family: "roboto";
+    font-weight: 700;
+    font-size: 28px;
+    color: #183b56;
+    margin-bottom: 20px;
+}
+
+
+.wcu-card {
+    background-color: #2d3250;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+
+
+}
+
+
+
+.wcu-card-title {
+    font-family: "roboto";
+    font-weight: 500;
+    font-size: 25px;
+    color: #f9b17a;
+}
+
+.wcu-card-descriptoion {
+    font-family: "roboto";
+    font-size: 25px;
+    color: #7b8794;
+}
+.ems-menu-item-card {
+    border-radius: 16px;
+    background-color: white;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    cursor: pointer;
+    margin: 10px;
+    
+}
+
+/* New animation on hover: smooth scale up + glowing shadow pulse */
+.ems-menu-item-card:hover {
+     transform: translateY(-8px);
+          box-shadow: 0 0 20px #f9b17a;
+}
+
+/* Section and headings unchanged */
+.ems-menu-item-card {
+    border-radius: 16px;
+    background-color: white;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    cursor: pointer;
+}
+
+.ems-menu-item-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px 5px rgba(249, 177, 122, 0.8); /* Orange glow effect */
+    border: 1px solid #f9b17a;
+}
+
+.ems-section {
+    background-color: #2d3250;
+}
+
+.ems-section-heading {
+    font-family: "roboto";
+    font-weight: 700;
+    font-size: 28px;
+    color: #f9b17a;
+    margin-bottom: 20px;
+}
+
+.ems-card-img {
+    border-radius: 16px;
+}
+  .ems-menu-item-card {
+          background-color: #fff;
+          border-radius: 16px;
+          padding: 1rem;
+          margin-bottom: 1.5rem;
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+          transition: transform 0.3s ease;
+          cursor: pointer;
+          color: #2d3250;
+        }
+
+        .ems-menu-item-card:hover {
+          transform: translateY(-8px);
+          box-shadow: 0 0 20px #f9b17a;
+        }
+
+.ems-card-menu-title {
+    color: black;
+    font-family: "roboto";
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 24px;
+}
+
+.ems-card-menu-item-link {
+    color: #f9b17a;
+    font-family: "roboto";
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 7px;
+    border: 2px solid #42476f;
+    background: #2d3250;
+    color: #ffffff;
+     border-color:white;
+}
+
+.contact form input:focus,
+.contact form textarea:focus {
+    outline: none;
+    border-color: #f9b17a;
+    box-shadow: 0 0 5px rgba(249, 177, 122, 0.5);
+}
+
+.contact button {
+    background-color: #f9b17a;
+    color: #2d3250;
+    padding: 0.5rem;
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #F5E4D7;
+    transform: scale(1.05);
+    color: #2d3250;
+}
+
+footer {
+    background: #F5E4D7;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+    transition: background-color 0.3s ease;
+}
+
+footer:hover {
+    background-color: #42476f;
+}
+
+footer p {
+    color: #2d3250;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+footer:hover p {
+    color: #ffffff;
+}
+
+.footer-link{
+   color: #2d3250;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+.menu-logo{
+    width: 30px;
+    height: 30px;
+}
