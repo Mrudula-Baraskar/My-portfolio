@@ -5,17 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
-
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" href="port.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="port.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -42,7 +40,6 @@
                             </div>
                         </div>
                     </nav>
-
                 </header>
             </div>
         </div>
@@ -51,7 +48,7 @@
 
 
     <div class="home d-none d-md-block"></div>
-    <div class="home1  d-md-none d-lg-none "></div>
+    <div class="home1 d-block d-md-none d-lg-none "></div>
 
     <div id="about-section" class="container ">
         <div class="row">
@@ -72,9 +69,9 @@
                     <button class="btn mb-3 mr-3">contact me</button>
                     <button class="btn mb-3" onclick="downloadResume()">Download my resume</button>
                     <div class="d-flex flex-row justify-content-center ">
-                        <a href="https://www.linkedin.com/in/mrudula-barasakar-224823337/" class="linkedin" target="_blank">
+                     <a href="https://www.linkedin.com/in/mrudula-barasakar-224823337/" class="logo-img" target="_blank">
                             <img src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG8.png" class="link-logo"></a>
-                        <a href="https://github.com/Mrudula-Baraskar" class="linkedin" target="_blank">
+                     <a href="https://github.com/Mrudula-Baraskar" class="logo-img" target="_blank">
                             <img src="https://www.pngall.com/wp-content/uploads/13/Github-Logo.png" class="link-logo"></a>
                     </div>
                 </section>
@@ -84,10 +81,11 @@
         </div>
     </div>
 
+
+
     <div id="skills-education-section">
         <div class="container">
-            <h1 class="wcu-section-heading">Skills and Education</h1>
-
+            <h1 class="se-section-heading">Skills and Education</h1>
             <div class="timeline">
                 <!-- Skills Section -->
                 <div data-aos="fade-up" data-aos-delay="400">
@@ -119,53 +117,52 @@
     </div>
 
 
-    <div id="project-section" class="ems-section pt-5 pb-5">
+
+    <div id="project-section" class="prj-section pt-5 pb-5">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="ems-section-heading">Projects</h1>
+                    <h1 class="prj-section-heading">Projects</h1>
                 </div>
 
                 <!-- Card 1 -->
-                <div class="col-12 col-md-6 col-lg-4 ems-menu-item-card w-10" data-aos="fade-up" data-aos-delay="400">
+                <div class="col-12 col-md-6 col-lg-4 prj-menu-item-card " data-aos="fade-up" data-aos-delay="400">
                     <div class="mr-2">
-                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png" class="ems-card-img w-100">
-                        <h1 class="ems-card-menu-title">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png" class="prj-card-img w-100">
+                        <h1 class="prj-card-menu-title">
                             <b>Responsive Web Project </b><br>
                             I built a modern, mobile-friendly website using HTML, CSS, and Bootstrap, ensuring smooth user experience across all screen sizes.......
                         </h1>
-                        <a href="#" class="ems-card-menu-item-link">View Details
+                        <a href="#" class="prj-card-menu-item-link view-link">View Details
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
                             </svg>
                         </a>
+                        <div class="hide">Stay Tuned.</div>
                     </div>
                 </div>
 
                 <!-- Card 2 -->
-                <div class="col-12 col-md-6 col-lg-4 ems-menu-item-card " data-aos="fade-up" data-aos-delay="800">
+                <div class="col-12 col-md-6 col-lg-4 prj-menu-item-card " data-aos="fade-up" data-aos-delay="800">
                     <div class="ml-3">
-                        <img src="https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/2017/08/14193934/14082017_AgaKhanPalace_01.jpg" class="ems-card-img w-100">
-                        <h1 class="ems-card-menu-title">
+                        <img src="https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/2017/08/14193934/14082017_AgaKhanPalace_01.jpg" class="prj-card-img w-100">
+                        <h1 class="prj-card-menu-title">
                             <b>Pune Place Web Project</b><br>
                             A responsive and visually appealing website built using HTML, CSS, and Bootstrap, designed to showcase key locations or features of Pune. The project highlights clean UI,
                         </h1>
-                        <a href="" class="ems-card-menu-item-link">View Details
+                        <a href="" class="prj-card-menu-item-link view-link">View Details
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
                             </svg>
                         </a>
+                         <div class="hide">Stay Tuned.</div>
                     </div>
                 </div>
-
-
-
-
-
             </div>
         </div>
 
     </div>
+
 
 
     <div id="conatct-section" class="container">
@@ -185,26 +182,20 @@
     </div>
 
 
+
     <footer class="text-center">
         <div class="footer-info">
             <p>&copy; 2025 Mrudula Baraskar. All Rights Reserved.</p>
             <p>Let's connect and create something great together!</p>
-
         </div>
-
-        <nav>
-
-        </nav>
     </footer>
 
 
-  
+
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
     <script  src="style.js"></script>
-
 </body>
-
 </html>
