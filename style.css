@@ -64,10 +64,10 @@ header {
 }
 
 .home {
-    background-image: url("https://bing.com/th/id/BCO.a8a32235-1c69-4349-9591-904f17c560df.png");
+    background-image: url("https://i.pinimg.com/736x/f0/87/ea/f087eab7d104214a8ffc6f8633dd6e9d.jpg");
     background-size: cover;
     background-attachment: fixed;
-    height: 130vh;
+    height: 100vh;
     width: 100vw;
     position: relative;
     z-index: -1;
@@ -76,7 +76,7 @@ header {
 }
 
 .home1 {
-    background-image: url("https://bing.com/th/id/BCO.02178665-bf15-489e-ab61-622610d7228e.png");
+    background-image: url("https://i.pinimg.com/736x/11/45/4e/11454e350e498bbae6012bae8ae87d30.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
